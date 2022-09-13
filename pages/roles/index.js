@@ -1,10 +1,14 @@
 import styles from '../../styles/Home.module.css'
 import React from 'react'
 import Link from 'next/link'
+import Breadcrumb from "../../util/Breadcrumb"
+import path from "../../util/filepath.JSON"
 
 export default function index() {
+  const pages = [path[0], path[1], path[3]]
   return (
     <>
+      <Breadcrumb pages={pages} />
       <h1 className={styles.title}>
         There are 3 Roles
       </h1>

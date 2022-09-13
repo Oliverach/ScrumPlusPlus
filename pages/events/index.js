@@ -1,12 +1,15 @@
 import styles from '../../styles/Home.module.css'
 import React from 'react'
 import Link from 'next/link'
+import path from "../../util/filepath.JSON"
+import Breadcrumb from '../../util/Breadcrumb'
 
 export default function index() {
-
+    
+    const pages = [path[0],path[1], path[4]]
     return (
-        <>
-      
+      <>
+        <Breadcrumb pages={pages}/>
             <h1 className={styles.title}>
                 There are 5 events
             </h1>

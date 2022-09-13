@@ -20,16 +20,16 @@ a {
 }
 
 @media (prefers-color-scheme: 
-dark
-/* light */
+/* dark */
+light
 ) {
-  html {
+  /* html {
     color-scheme: dark;
-  }
-  
-   /* html {
-    color-scheme: light;
   } */
+  
+   html {
+    color-scheme: light;
+  }
   body {
     color: white;
     background: black;

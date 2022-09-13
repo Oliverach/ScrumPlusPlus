@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Home",
+        "link": "/"
+    },
+    {
+        "name": "Overview",
+        "link": "/overview"
+    },
+    {
+        "name": "Quiz",
+        "link": "/quiz"
+    },
+    {
+        "name": "Roles",
+        "link": "/roles"
+    },
+    {
+        "name": "Events",
+        "link": "/events"
+    },
+    {
+        "name": "Artifatcs",
+        "link": "/artifacts"
+    },
+    {
+        "name": "Daily Scrum",
+        "link": "/daily-scrum"
+    },
+    {
+        "name": "Sprint Planning",
+        "link": "/sprint-planning"
+    },
+    {
+        "name": "Sprint Retrospective",
+        "link": "/sprint-retrospective"
+    },
+    {
+        "name": "Sprint Review",
+        "link": "/sprint-review"
+    },
+    {
+        "name": "Sprint",
+        "link": "/sprint"
+    },
+    {
+        "name": "Product Backlog",
+        "link": "/product-backlog"
+    },
+    {
+        "name": "Sprint Backlog",
+        "link": "/sprint-backlog"
+    },
+    {
+        "name": "Product Increment",
+        "link": "/product-Increment"
+    },
+    {
+        "name": "Product Owner",
+        "link": "/product-owner"
+    },
+    {
+        "name": "Scrum Master",
+        "link": "/scrum-master"
+    },
+    {
+        "name": "Dev Team",
+        "link": "/dev-team"
+    }
+]

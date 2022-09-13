@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <h1 className={styles.title}>
@@ -10,22 +10,16 @@ export default function Home() {
 
       <div className={styles.grid}>
 
-        <Link href="/roles">
+        <Link href="/quiz">
           <div className={styles.card}>
-            <h2>Roles &rarr;</h2>
-            <p>Learn everything you need to know about the 3 Roles.</p>
+            <h2>Quiz &rarr;</h2>
+            <p>Have you learned everything? Test your knowledge here!</p>
           </div>
         </Link>
-        <Link href="/events">
+        <Link href="/overview">
           <div className={styles.card}>
-            <h2>Events &rarr;</h2>
-            <p>Learn everything you need to know about the 5 Events.</p>
-          </div>
-        </Link>
-        <Link href="/artifacts">
-          <div className={styles.card}>
-            <h2>Artifacts &rarr;</h2>
-            <p>Learn everything you need to know about the 3 Artifacts.</p>
+            <h2>Scrum explained &rarr;</h2>
+            <p>Get started with Scrum.</p>
           </div>
         </Link>
       </div>
