@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
       </main>
       <footer className={styles.footer}>
         <p style={{display:"inherit"}}>
-          © 2022 Scrum Plus Plus • <a href='https://github.com/Oliverach/ScrumPlusPlus' style={{marginLeft:"4px"}} className={styles.link}>GitHub</a>
+          © 2022 Scrum Plus Plus • <a href='https://github.com/Oliverach/ScrumPlusPlus' style={{marginLeft:"4px"}} className={styles.link}>GitHub</a> • <a href='/contact' style={{marginLeft:"4px"}} className={styles.link}>Contact</a>
         </p>
       </footer>
     </div>
