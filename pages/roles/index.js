@@ -11,19 +11,19 @@ export default function index() {
 
       <div className={styles.grid}>
 
-        <Link href="/product-owner">
+        <Link href="/roles/product-owner">
           <div className={styles.card}>
             <h2>Product Owner &rarr;</h2>
             <p>Introduction to Product Owner</p>
           </div>
         </Link>
-        <Link href="/scrum-master">
+        <Link href="/roles/scrum-master">
           <div className={styles.card}>
             <h2>Scrum Master &rarr;</h2>
             <p>Introduction to Scrum Master</p>
           </div>
         </Link>
-        <Link href="/dev-team">
+        <Link href="/roles/dev-team">
           <div className={styles.card}>
             <h2>Dev Team &rarr;</h2>
             <p>Introduction to Dev Team</p>

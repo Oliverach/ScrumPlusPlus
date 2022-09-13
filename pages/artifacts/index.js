@@ -11,19 +11,19 @@ export default function index() {
 
     <div className={styles.grid}>
 
-      <Link href="/product-backlog">
+      <Link href="/artifacts/product-backlog">
         <div className={styles.card}>
           <h2>Product Backlog &rarr;</h2>
           <p>Introduction to Product Backlog</p>
         </div>
       </Link>
-      <Link href="/sprint-backlog">
+      <Link href="/artifacts/sprint-backlog">
         <div className={styles.card}>
           <h2>Sprint Backlog &rarr;</h2>
           <p>Introduction to Sprint Backlog</p>
         </div>
       </Link>
-      <Link href="/product-increment">
+      <Link href="/artifacts/product-increment">
         <div className={styles.card}>
           <h2>Product Increment &rarr;</h2>
           <p>Introduction to Productn Increment</p>

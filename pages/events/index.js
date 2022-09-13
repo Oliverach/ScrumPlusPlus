@@ -11,31 +11,31 @@ export default function index() {
 
             <div className={styles.grid}>
 
-                <Link href="/sprint-review">
+                <Link href="/events/sprint-review">
                     <div className={styles.card}>
                         <h2>Sprint Review &rarr;</h2>
                         <p>Introduction to Sprint Review</p>
                     </div>
                 </Link>
-                <Link href="/sprint-planning">
+                <Link href="/events/sprint-planning">
                     <div className={styles.card}>
                         <h2>Sprint Planning &rarr;</h2>
                         <p>Introduction to Sprint Planning</p>
                     </div>
                 </Link>
-                <Link href="/daily-scrum">
+                <Link href="/events/daily-scrum">
                     <div className={styles.card}>
                         <h2>Daily Scrum &rarr;</h2>
                         <p>Introduction to Daily Scrum</p>
                     </div>
                 </Link>
-                <Link href="/sprint">
+                <Link href="/events/sprint">
                     <div className={styles.card}>
                         <h2>Sprint &rarr;</h2>
                         <p>Introduction to Sprint</p>
                     </div>
                 </Link>
-                <Link href="/sprint-retrospective">
+                <Link href="/events/sprint-retrospective">
                     <div className={styles.card}>
                         <h2>Sprint Retrospective &rarr;</h2>
                         <p>Introduction to Sprint Retrospective</p>
