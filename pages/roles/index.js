@@ -6,7 +6,7 @@ export default function index() {
   return (
     <>
       <h1 className={styles.title}>
-       There are 3 Roles
+        There are 3 Roles
       </h1>
 
       <div className={styles.grid}>
