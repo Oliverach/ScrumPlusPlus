@@ -53,7 +53,7 @@ export default function index() {
             </h1>
             {showScore ? (
                 <>
-                <h1 className="text-3xl font-semibold text-center text-white">
+                <h1 className="text-3xl font-semibold text-center text-black">
                     You scored {score} out of {questions.length}
                 </h1>
                 <Link href="/">
@@ -65,7 +65,7 @@ export default function index() {
             ) : (
                 <>
                     <div className="flex flex-col items-start w-full">
-                        <h4 className="mt-10 text-xl text-white/60">
+                        <h4 className="mt-10 text-xl text-black/60">
                             Question {currentQuestion + 1} of {questions.length}
                         </h4>
                         <div className="mt-4 text-2xl text-black">

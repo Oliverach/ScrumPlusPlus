@@ -1,38 +1,92 @@
 [
   {
-    "question": "What type of framework is Next.js?",
+    "question": "What is Scrum?",
     "answerOptions": [
-      { "answer": "Frontend" },
-      { "answer": "Backend" },
-      { "answer": "FullStack", "isCorrect": true },
-      { "answer": "None of the above" }
+      { "answer": "Program Language" },
+      { "answer": "Game" },
+      { "answer": "framework for project management", "isCorrect": true },
+      { "answer": "A project member" }
     ]
   },
   {
-    "question": "When was Next.js released?",
+    "question": "What are the responsibilities of the Product Owner?",
     "answerOptions": [
-      { "answer": "20 September 2019" },
-      { "answer": "14 January 2017" },
-      { "answer": "25 October 2016", "isCorrect": true },
-      { "answer": "28 March 2018" }
+      { "answer": "Manages the money" },
+      { "answer": "Manages the Team" },
+      { "answer": "Manages the Product Backlog", "isCorrect": true },
+      { "answer": "Manages the appointments" }
     ]
   },
   {
-    "question": "Which CSS Framework are we using?",
+    "question": "What is the Scrum Master?",
     "answerOptions": [
-      { "answer": "Bootstrap" },
-      { "answer": "TailwindCSS", "isCorrect": true },
-      { "answer": "Chakra UI" },
-      { "answer": "Bulma CSS" }
+      { "answer": "The mail developer" },
+      { "answer": "A facilitator for an Agile development team", "isCorrect": true },
+      { "answer": "Product Backlog Manager" },
+      { "answer": "Tester" }
     ]
   },
   {
-    "question": "Which class in Tailwind is used to set flex direction of column?",
+    "question": "What happens in a daily Stand-up session?",
     "answerOptions": [
-      { "answer": "col" },
-      { "answer": "col-flex" },
-      { "answer": "flex-col", "isCorrect": true },
-      { "answer": "None of the above" }
+      { "answer": "Stand-up meeting about our day" },
+      { "answer": "Stand up because they are sitting to long" },
+      { "answer": "Daily discussions that take place and are usually 15 minutes long", "isCorrect": true },
+      { "answer": "Discuss aim for the next sprint" }
+    ]
+  },
+  {
+    "question": "What is a Sprint?",
+    "answerOptions": [
+      { "answer": "Set an appointment for the next Stand-up meeting" },
+      { "answer": "During a sprint, a specific module or feature of the product is created", "isCorrect": true },
+      { "answer": "Go for a sprint, for the movement" },
+      { "answer": "A report about the day" }
+    ]
+  },
+  {
+    "question": "What are the key skills of a Scrum Master?",
+    "answerOptions": [
+      { "answer": "Not familiar with the technology of the group" },
+      { "answer": "They can't lead a group" },
+      { "answer": "Leave the conflicts to other members" },
+      { "answer": "A strong understanding of Scrum and Agile concepts", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "What happens in a Sprint Retrospective?",
+    "answerOptions": [
+      { "answer": "Past mistakes, potential issues, and new methods to handle them are discussed", "isCorrect": true },
+      { "answer": "During a Sprint Retrorespective a specific module or feature of the product is created" },
+      { "answer": "Daily discussions" },
+      { "answer": "Talking about things that went well and ignore the issues" }
+    ]
+  },
+  {
+    "question": "What is Scrum-ban?",
+    "answerOptions": [
+      { "answer": "The Scrum masters bans a member of the group" },
+      { "answer": "Scum bans any other framework" },
+      { "answer": "Scrum gets banned and the group will work with other frameworks" },
+      { "answer": "Scrum-ban is a methodology that’s a combination of Scrum and Kanban", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "What are the questions in scrum?",
+    "answerOptions": [
+      { "answer": "What will you do in the future? Will everything go right?" },
+      { "answer": "What did you do yesterday/today? Are there any impedements?", "isCorrect": true },
+      { "answer": "There are no Scrum questions" },
+      { "answer": "What did you do yesterday/future?" }
+    ]
+  },
+  {
+    "question": "What are the responsibilities of the Scrum Team?",
+    "answerOptions": [
+      { "answer": "Working products must be developed and delivered in the end of the project." },
+      { "answer": "Correct and crisp information must be provided to ensure a successful sprint." },
+      { "answer": "Ownership and transparency must be ensured for the work assigned to the team members", "isCorrect": true },
+      { "answer": "The members can't collaborate in any way." }
     ]
   }
 ]
