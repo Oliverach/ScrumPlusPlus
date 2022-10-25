@@ -6,7 +6,7 @@ import path from "../../util/filepath.JSON";
 import Link from "next/link";
 
 export default function index() {
-    const pages = [path[0], path[1], path[3]]
+    const pages = [path[0], path[2]]
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [score, setScore] = useState(0);
