@@ -166,8 +166,7 @@ export default function SprintRetrospective() {
             </ul>
             At face value, this is what a retro is all about: Working with real
             people to make changes and improvements. Few things reinforce agile
-            principles better. Now that we know why retrospectives are so
-            important, read on and learn how to host a meeting on your own.
+            principles better.
           </div>
         </div>
       </div>
