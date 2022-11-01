@@ -130,7 +130,7 @@ export default function SprintBacklog() {
               <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
                 <blockquote>
                   <p>
-                    Das Scrum-Team kann den Sprint Backlog während des Sprints anpassen. Dazu kommt es, wenn das Scrum-Team bemerkt, dass beispielsweise Mehrarbeit erforderlich ist, um das Sprintziel zu erreichen. Wenn Mehrarbeit erforderlich ist, fügt das Scrum-Team diese dem Sprint Backlog hinzu.
+                    The Sprint Backlog thus contains selected items from the Product Backlog that are scheduled for the upcoming Sprint. This includes a description of how each task needs to be executed. The Sprint Backlog is necessary because it shows all the work that the Scrum team has marked "Required to achieve the Sprint Goal".
                   </p>
                 </blockquote>
 
