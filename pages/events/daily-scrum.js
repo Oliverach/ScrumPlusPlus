@@ -137,8 +137,8 @@ export default function DailyScrum() {
                 <p>
                   Said another way, a stand-up is a daily meeting that involves
                   the core team: product owners, developers, and the scrum
-                  master. This meeting’s flavor is unique to each team, but at
-                  Atlassian we use three simple questions to generate structure:
+                  master. This meeting’s flavor is unique to each team, usually we use
+                  three simple questions to generate structure:
                 </p>
               </blockquote>
               <ul role="list">
@@ -157,7 +157,7 @@ export default function DailyScrum() {
               about the team’s overall contribution to the organization. At the
               individual level, it’s important to walk into the day's stand-up
               knowing what you’re going to say. It keeps the energy of the
-              stand-up high and everyone engaged. At Atlassian, individuals use
+              stand-up high and everyone engaged. Individuals use
               Jira boards to keep on top of their projects with quick filters.
               Two great filters that can be used together to help prepare for
               stand-up are “only my issues” and “recently updated.” When these
