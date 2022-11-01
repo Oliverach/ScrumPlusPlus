@@ -1,9 +1,9 @@
-import React from 'react'
-import path from "../../util/filepath.JSON"
-import Breadcrumb from '../../util/Breadcrumb'
+import React from "react";
+import path from "../../util/filepath.JSON";
+import Breadcrumb from "../../util/Breadcrumb";
 
 export default function SprintReview() {
-  const pages = [path[0], path[1], path[4], path[9]]
+  const pages = [path[0], path[1], path[4], path[9]];
   return (
     <div className="flex flex-col justify-center items-center">
       <Breadcrumb pages={pages} />
@@ -123,33 +123,43 @@ export default function SprintReview() {
               </span>
             </h1>
             <p className="mt-8 text-xl text-gray-500 leading-8">
-          
-
-Sprint reviews are not retrospectives. A sprint review is about demonstrating the hard work of the entire team: designers, developers, and the product owner. At Atlassian we like to keep our sprint reviews casual. Team members gather around a desk for informal demos and describe the work they’ve done for that iteration. It’s a time to ask questions, try new features, and give feedback. Sharing in success is an important part of building an agile team.
-
+              Sprint reviews are not retrospectives. A sprint review is about
+              demonstrating the hard work of the entire team: designers,
+              developers, and the product owner. We recommend to keep
+              our sprint reviews casual. Team members gather around a desk for
+              informal demos and describe the work they’ve done for that
+              iteration. It’s a time to ask questions, try new features, and
+              give feedback. Sharing in success is an important part of building
+              an agile team.
             </p>
 
             <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
               <blockquote>
                 <p>
-                  
-
-Crossing the finish line and completing work requires good planning, a clear definition of ‘done,’ and focused execution. Most of this happens during sprint planning, but to have a successful sprint review and sprint, teams need to do a little more than plan. They need to develop a clear culture of how to deliver work as well as what it means to be ‘done.’
-
+                  Crossing the finish line and completing work requires good
+                  planning, a clear definition of ‘done,’ and focused execution.
+                  Most of this happens during sprint planning, but to have a
+                  successful sprint review and sprint, teams need to do a little
+                  more than plan. They need to develop a clear culture of how to
+                  deliver work as well as what it means to be ‘done.’
                 </p>
               </blockquote>
-   
             </div>
           </div>
           <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
             <p>
-
-
-            For teams that are new to sprint reviews, there’s a strong temptation to bleed sprint review into the retrospective. A sprint review is an independent ceremony from a sprint retrospective. Take the time to enjoy the fruit of your labors. Liberally celebrate accomplishments. Effective sprint reviews build up the morale and motivation of the team. This idea of celebration is so important to us on the Jira team, we’ve incorporated “go ahead, celebrate” into our vision statement for this very reason.
+              For teams that are new to sprint reviews, there’s a strong
+              temptation to bleed sprint review into the retrospective. A sprint
+              review is an independent ceremony from a sprint retrospective.
+              Take the time to enjoy the fruit of your labors. Liberally
+              celebrate accomplishments. Effective sprint reviews build up the
+              morale and motivation of the team. This idea of celebration is so
+              important to us on the Jira team, we’ve incorporated “go ahead,
+              celebrate” into our vision statement for this very reason.
             </p>
           </div>
         </div>
       </div>
     </div>
-      )
+  );
 }
