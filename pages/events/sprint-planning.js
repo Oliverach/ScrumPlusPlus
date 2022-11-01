@@ -139,6 +139,7 @@ In scrum, the sprint is a set period of time where all the work is done. However
               </p>
             </blockquote>
           </div>
+          <img src="../../sprint_planning_diagram.svg"></img>
         </div>
         <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
           <p>
